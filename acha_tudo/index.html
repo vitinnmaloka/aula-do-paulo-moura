@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscou Achou</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <h1>BUSCOU ACHOU!!</h1>
+    </header>
+    <main>
+        <div class="entrada">
+        <label for="txt_cep" >CEP</label>
+        <input type="text" name="txt_cep" id="txt_cep">
+        <button onclick="buscaCEP()"> PESQUISAR </button>
+        </div>
+        <div class="resultado_busca"></div>
+        
+        <div class="tudo">
+        
+            <div class="esquerda1"><p>LOCALIDADE: <br> <span id="span_localidade"></span></p></div>
+
+            <div class="esquerda2"><p>UF: <br> <span id="span_uf"></span></p></div>
+
+            <div class="centro"><p>BAIRRO: <br> <span id="span_bairro"></span></p></div>
+
+            <div class="direita1"><p>LOGRADOURO: <br> <span id="span_logradouro"></span></p></div>
+
+            <div class="direita2"><p>DDD: <br> <span id="span_ddd"></span></p></div>
+        
+        </div>
+
+
+    </main>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

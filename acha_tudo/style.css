@@ -1,0 +1,120 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+background-color: rgb(114, 30, 30);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+height: 60px;
+justify-content: center;
+text-align: center;
+display: flex;
+align-items: center;
+}
+
+body{
+margin: 0%;
+background-color: black;
+color: aliceblue;
+}
+
+.entrada{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    font-size: 40px;
+    color: rgb(114, 30, 30);
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+button{
+    height: 50px;
+    background-color: rgb(114, 30, 30);
+    color: aliceblue;
+    font-weight: bold;
+}
+
+input{
+    height: 44px;
+    font-size: 20px;
+    color: rgb(114, 30, 30);
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.tudo{
+    display: flex;
+    margin-block: 20px;
+    justify-content: space-around;
+    height: 50px;
+    margin-top: 170px;
+}
+
+.esquerda1{
+    height: 16vw;
+    width: 17vw;
+    border: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(114, 30, 30);
+    color: aliceblue;
+    align-items: center;
+    border-radius:  200px;
+}
+
+.esquerda2{
+    height: 16vw;
+    width: 17vw;
+    border: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(114, 30, 30);
+    color: aliceblue;
+    align-items: center;
+    border-radius:  200px;
+}
+
+.centro{
+    height: 16vw;
+    width: 17vw;
+    border: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(114, 30, 30);
+    color: aliceblue;
+    align-items: center;
+    border-radius:  200px;
+}
+
+.direita1{
+    height: 16vw;
+    width: 17vw;
+    border: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(114, 30, 30);
+    color: aliceblue;
+    align-items: center;
+    border-radius:  200px;
+}
+
+.direita2{
+    height: 16vw;
+    width: 17vw;
+    border: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(114, 30, 30);
+    color: aliceblue;
+    align-items: center;
+    border-radius: 100%;
+}
